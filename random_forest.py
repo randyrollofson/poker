@@ -83,10 +83,10 @@ for i in range(2, 11):
 
 graph = plt.figure(1)
 plt.axis([0, 10, 0, 100])
-plt.title('Num Features vs Accuracy')
+plt.title('Weighted vs Random Feature Selection Accuracies')
 plt.xlabel('Number of Features Selected')
 plt.ylabel('Accuracy (%)')
 plt.plot(num_features_list, accuracies1)
 plt.plot(num_features_list, accuracies2)
-plt.legend(['Feature Selection', 'Random Selection'], loc='lower right')
+plt.legend(['Highest Weighted Features First', 'Random Selection'], loc='lower right')
 plt.show()
