@@ -82,7 +82,7 @@ for i in range(2, 11):
     accuracies2.append(accuracy)
 
 graph = plt.figure(1)
-plt.axis([0, 10, 40, 70])
+plt.axis([0, 10, 0, 100])
 plt.title('Num Features vs Accuracy')
 plt.xlabel('Number of Features Selected')
 plt.ylabel('Accuracy (%)')
